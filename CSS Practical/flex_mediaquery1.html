@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 40px;
+            margin-left: 60px;
+            flex-direction: row;
+        }
+        .item {
+            height: 230px;
+            width: 350px;
+            border: 1px solid dimgray;
+            margin-top: 25px;
+            display: inline-block;
+        }
+        .item h1 {
+            height: 60%;
+            width: 100%;
+            background-color: dimgray;
+            text-align: center;
+            color: white;
+            padding-top: 50px;
+            font-size: 30px;
+        }
+        .text {
+            height: 40%;
+            width: 100%;
+            text-align: left;
+            padding: 5px;
+            margin: 2px;
+        }
+        .text button {
+            margin-top: 5px;
+            width: 50px;
+        }
+        @media (max-width: 576px) {
+            .container {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <h1>Thumbnail</h1>
+            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam delectus
+                sequi numquam accusamus nihil. <br>
+                <button>View</button><button>Edit</button>
+            </div>
+        </div>
+        <div class="item">
+            <h1>Thumbnail</h1>
+            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam delectus
+                sequi numquam accusamus nihil. <br>
+                <button>View</button><button>Edit</button>
+            </div>
+        </div>
+        <div class="item">
+            <h1>Thumbnail</h1>
+            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam delectus
+                sequi numquam accusamus nihil. <br>
+                <button>View</button><button>Edit</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="item">
+            <h1>Thumbnail</h1>
+            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam delectus
+                sequi numquam accusamus nihil. <br>
+                <button>View</button><button>Edit</button>
+            </div>
+        </div>
+        <div class="item">
+            <h1>Thumbnail</h1>
+            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam delectus
+                sequi numquam accusamus nihil. <br>
+                <button>View</button><button>Edit</button>
+            </div>
+        </div>
+        <div class="item">
+            <h1>Thumbnail</h1>
+            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam delectus
+                sequi numquam accusamus nihil.<br>
+                <button>View</button><button>Edit</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
